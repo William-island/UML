@@ -9979,6 +9979,1087 @@
 			concurrency 	"Sequential"
 			opExportControl 	"Public"
 			uid        	0)))
+	    (object Class "IClientAccessDao"
+		quid       	"5E0EFC220104"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0EFC6700D7"
+			supplier   	"Logical View::ClientAccessDao"
+			quidu      	"5E0EFC3F0214"))
+		operations 	(list Operations
+		    (object Operation "addClientAccess"
+			quid       	"5E0EFC30003A"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "ClientAccessDao"
+		quid       	"5E0EFC3F0214"
+		operations 	(list Operations
+		    (object Operation "addClientAccess"
+			quid       	"5E0EFC5900F0"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "ICourseDao"
+		quid       	"5E0EFC7300F3"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0EFD2B0274"
+			supplier   	"Logical View::CourseDao"
+			quidu      	"5E0EFCDB01C9"))
+		operations 	(list Operations
+		    (object Operation "addCourse"
+			quid       	"5E0EFC9C035B"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteCourse"
+			quid       	"5E0EFCA50222"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changecCourse"
+			quid       	"5E0EFCB0008E"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchCourse"
+			quid       	"5E0EFCBB00F8"
+			result     	"Course"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11BFDB001C")
+		    (object Operation "showAllCourse"
+			quid       	"5E0EFCC900FD"
+			result     	"List<Course>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "CourseDao"
+		quid       	"5E0EFCDB01C9"
+		operations 	(list Operations
+		    (object Operation "addCourse"
+			quid       	"5E0EFCE60189"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteCourse"
+			quid       	"5E0EFCEF0068"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changecCourse"
+			quid       	"5E0EFCFE0309"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchCourse"
+			quid       	"5E0EFD0903E0"
+			result     	"Course"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11BFDB001C")
+		    (object Operation "showAllCourse"
+			quid       	"5E0EFD17018E"
+			result     	"List<Course>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "ICurriculumDao"
+		quid       	"5E0EFD3B0242"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0EFDD200DB"
+			supplier   	"Logical View::CurriculumDao"
+			quidu      	"5E0EFD7C00E2"))
+		operations 	(list Operations
+		    (object Operation "addChoose"
+			quid       	"5E0EFD4E0399"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteChoose"
+			quid       	"5E0EFD560230"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changeChoose"
+			quid       	"5E0EFD600396"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchChoose"
+			quid       	"5E0EFD6D00D8"
+			result     	"Choose"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11C54B011B")))
+	    (object Class "CurriculumDao"
+		quid       	"5E0EFD7C00E2"
+		operations 	(list Operations
+		    (object Operation "addChoose"
+			quid       	"5E0EFD8E0340"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteChoose"
+			quid       	"5E0EFD9A0038"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changeChoose"
+			quid       	"5E0EFDB5027F"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchChoose"
+			quid       	"5E0EFDC200F6"
+			result     	"Choose"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11C54B011B")))
+	    (object Class "IGoodsDao"
+		quid       	"5E0EFDE503A3"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0EFE7D02A4"
+			supplier   	"Logical View::GoodsDao"
+			quidu      	"5E0EFE3100B5"))
+		operations 	(list Operations
+		    (object Operation "addShop"
+			quid       	"5E0EFDF0033D"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteShop"
+			quid       	"5E0EFDFD0346"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changeShop"
+			quid       	"5E0EFE080181"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchShop"
+			quid       	"5E0EFE13005D"
+			result     	"Goods"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11BECB033F")
+		    (object Operation "showAllShop"
+			quid       	"5E0EFE1F001E"
+			result     	"List<Goods>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "GoodsDao"
+		quid       	"5E0EFE3100B5"
+		operations 	(list Operations
+		    (object Operation "addShop"
+			quid       	"5E0EFE3D0244"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteShop"
+			quid       	"5E0EFE46038F"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changeShop"
+			quid       	"5E0EFE5200F5"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchShop"
+			quid       	"5E0EFE5D03C3"
+			result     	"Goods"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11BECB033F")
+		    (object Operation "showAllShop"
+			quid       	"5E0EFE6902F6"
+			result     	"List<Goods>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "ILibraryDao"
+		quid       	"5E0EFEC90323"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0EFF5A036A"
+			supplier   	"Logical View::LibraryDao"
+			quidu      	"5E0EFF190110"))
+		operations 	(list Operations
+		    (object Operation "addBook"
+			quid       	"5E0EFEE2004C"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteBook"
+			quid       	"5E0EFEE80073"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changeBook"
+			quid       	"5E0EFEF101D6"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchBook"
+			quid       	"5E0EFEFE0032"
+			result     	"Book"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11D0B401A1")
+		    (object Operation "showAllBook"
+			quid       	"5E0EFF0A037B"
+			result     	"List<Book>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "LibraryDao"
+		quid       	"5E0EFF190110"
+		operations 	(list Operations
+		    (object Operation "addBook"
+			quid       	"5E0EFF220045"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteBook"
+			quid       	"5E0EFF2F03C4"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changeBook"
+			quid       	"5E0EFF3802D2"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchBook"
+			quid       	"5E0EFF41020A"
+			result     	"Book"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11D0B401A1")
+		    (object Operation "showAllBook"
+			quid       	"5E0EFF4C004F"
+			result     	"List<Book>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "IStudentDao"
+		quid       	"5E0EFF6C03C2"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F000403A3"
+			supplier   	"Logical View::StudentDao"
+			quidu      	"5E0EFFBE0257"))
+		operations 	(list Operations
+		    (object Operation "setStu"
+			quid       	"5E0EFF7A0331"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchStu"
+			quid       	"5E0EFF8402E7"
+			result     	"Student"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5FDF047803C0")
+		    (object Operation "addStu"
+			quid       	"5E0EFF8E01F5"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteStu"
+			quid       	"5E0EFFA20257"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "showAllStudents"
+			quid       	"5E0EFFAD0173"
+			result     	"List<Student>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "StudentDao"
+		quid       	"5E0EFFBE0257"
+		operations 	(list Operations
+		    (object Operation "setStu"
+			quid       	"5E0EFFCB001B"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchStu"
+			quid       	"5E0EFFD40183"
+			result     	"Student"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5FDF047803C0")
+		    (object Operation "addStu"
+			quid       	"5E0EFFDE0216"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteStu"
+			quid       	"5E0EFFE70389"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "showAllStudents"
+			quid       	"5E0EFFF10246"
+			result     	"List<Student>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "IUserDao"
+		quid       	"5E0F000800AF"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F00A00292"
+			supplier   	"Logical View::UserDao"
+			quidu      	"5E0F005F0390"))
+		operations 	(list Operations
+		    (object Operation "setUser"
+			quid       	"5E0F001803A8"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchUser"
+			quid       	"5E0F0024020F"
+			result     	"User"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5FDF047803AF")
+		    (object Operation "addUser"
+			quid       	"5E0F00330044"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteUser"
+			quid       	"5E0F003D00B4"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "showAllUser"
+			quid       	"5E0F00460178"
+			result     	"List<User>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "UserDao"
+		quid       	"5E0F005F0390"
+		operations 	(list Operations
+		    (object Operation "setUser"
+			quid       	"5E0F006A0012"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "searchUser"
+			quid       	"5E0F0074007D"
+			result     	"User"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5FDF047803AF")
+		    (object Operation "addUser"
+			quid       	"5E0F007D02CB"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "deleteUser"
+			quid       	"5E0F008603DA"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "showAllUser"
+			quid       	"5E0F009301E9"
+			result     	"List<User>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "IServerGUI"
+		quid       	"5E0F031A038A"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F04310351"
+			supplier   	"Logical View::ServerGUI"
+			quidu      	"5E0F034F01F3"))
+		operations 	(list Operations
+		    (object Operation "visible"
+			quid       	"5E0F033001D9"
+			result     	"void"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "showHistory"
+			quid       	"5E0F0340005C"
+			result     	"void"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "ServerGUI"
+		quid       	"5E0F034F01F3"
+		operations 	(list Operations
+		    (object Operation "visible"
+			quid       	"5E0F04100205"
+			result     	"void"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "showHistory"
+			quid       	"5E0F042103D3"
+			result     	"void "
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "mainSys"
+			quid       	"5E0F035E00A5"
+			type       	"ServerSys")
+		    (object ClassAttribute "serverView"
+			quid       	"5E0F036903E1"
+			type       	"JFrame"
+			exportControl 	"Public")
+		    (object ClassAttribute "historyPanel"
+			quid       	"5E0F03780041"
+			type       	"JFrame"
+			exportControl 	"Public")))
+	    (object Class "IBookServerSrv"
+		quid       	"5E0F04EC0167"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F05E10077"
+			supplier   	"Logical View::BookServerSrv"
+			quidu      	"5E0F056B0076"))
+		operations 	(list Operations
+		    (object Operation "bookAdd"
+			quid       	"5E0F04FC01B1"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bookDelete"
+			quid       	"5E0F05040176"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bookChange"
+			quid       	"5E0F050E02C9"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "borrow"
+			quid       	"5E0F05330125"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "returnBook"
+			quid       	"5E0F053D0225"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllBook"
+			quid       	"5E0F05470107"
+			result     	"List<Book>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllRecord"
+			quid       	"5E0F055801BC"
+			result     	"List<BorrowRecord>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "BookServerSrv"
+		quid       	"5E0F056B0076"
+		operations 	(list Operations
+		    (object Operation "bookAdd"
+			quid       	"5E0F058C0310"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bookDelete"
+			quid       	"5E0F059F020F"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bookChange"
+			quid       	"5E0F05A801D8"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "borrow"
+			quid       	"5E0F05B4017A"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "returnBook"
+			quid       	"5E0F05BC03AA"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllBook"
+			quid       	"5E0F05C601BC"
+			result     	"List<Book>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllRecord"
+			quid       	"5E0F05D10221"
+			result     	"List<BorrowRecord>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "mainSys"
+			quid       	"5E0F05780272"
+			type       	"ServerSys")))
+	    (object Class "ICourseServerSrv"
+		quid       	"5E0F0627032C"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F07110257"
+			supplier   	"Logical View::CourseServerSrv"
+			quidu      	"5E0F069500A9"))
+		operations 	(list Operations
+		    (object Operation "courseAdd"
+			quid       	"5E0F0635011F"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "courseDelete"
+			quid       	"5E0F064C029C"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "courseChange"
+			quid       	"5E0F0657008C"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllCourse"
+			quid       	"5E0F066201B0"
+			result     	"List<Course>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getChoose"
+			quid       	"5E0F066E014C"
+			result     	"Choose"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11C54B011B")
+		    (object Operation "courseSelect"
+			quid       	"5E0F0678004A"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "courseDrop"
+			quid       	"5E0F0682028B"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "CourseServerSrv"
+		quid       	"5E0F069500A9"
+		operations 	(list Operations
+		    (object Operation "courseAdd"
+			quid       	"5E0F06AA02AE"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "courseDelete"
+			quid       	"5E0F06D000E9"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "courseChange"
+			quid       	"5E0F06DA014E"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllCourse"
+			quid       	"5E0F06E50106"
+			result     	"List<Course>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getChoose"
+			quid       	"5E0F06F00277"
+			result     	"Choose"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11C54B011B")
+		    (object Operation "courseSelect"
+			quid       	"5E0F06FA0016"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "courseDrop"
+			quid       	"5E0F0704017B"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "mainSys"
+			quid       	"5E0F069E0397"
+			type       	"ServerSys")))
+	    (object Class "IMessageOperation"
+		quid       	"5E0F0721012E"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F076F0079"
+			supplier   	"Logical View::MessageOperation"
+			quidu      	"5E0F074700F9"))
+		operations 	(list Operations
+		    (object Operation "Operate"
+			quid       	"5E0F0738006B"
+			result     	"Message"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "MessageOperation"
+		quid       	"5E0F074700F9"
+		operations 	(list Operations
+		    (object Operation "Operate"
+			quid       	"5E0F07620098"
+			result     	"Message"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "mainSys"
+			quid       	"5E0F07520046"
+			type       	"IServerSys")))
+	    (object Class "IServerSocketSrv"
+		quid       	"5E0F077D0062"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F089201C2"
+			supplier   	"Logical View::ServerSocketSrv"
+			quidu      	"5E0F07A90101"))
+		operations 	(list Operations
+		    (object Operation "initialize"
+			quid       	"5E0F0787012F"
+			result     	"void"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "work"
+			quid       	"5E0F07900036"
+			result     	"void"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "close"
+			quid       	"5E0F079B0203"
+			result     	"void"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "ServerSocketSrv"
+		quid       	"5E0F07A90101"
+		operations 	(list Operations
+		    (object Operation "initialize"
+			quid       	"5E0F089E0056"
+			result     	"void"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "work"
+			quid       	"5E0F08A70172"
+			result     	"void"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "close"
+			quid       	"5E0F08B200DA"
+			result     	"void"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "mainSys"
+			quid       	"5E0F07B30308"
+			type       	"IServerSys")
+		    (object ClassAttribute "serverSocket"
+			quid       	"5E0F07BF02D5"
+			type       	"ServerSocket")
+		    (object ClassAttribute "socket"
+			quid       	"5E0F07D1009C"
+			type       	"Socket")
+		    (object ClassAttribute "executorService"
+			quid       	"5E0F08510176"
+			type       	"ExecutorService")
+		    (object ClassAttribute "oInputStream"
+			quid       	"5E0F085B028B"
+			type       	"ObjectInputStream")
+		    (object ClassAttribute "oOutputStream"
+			quid       	"5E0F086B0327"
+			type       	"ObjectOutputStream")
+		    (object ClassAttribute "ip"
+			quid       	"5E0F08790039"
+			type       	"String")))
+	    (object Class "IShopServerSrv"
+		quid       	"5E0F08D8018B"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F09EF00DD"
+			supplier   	"Logical View::ShopServerSrv"
+			quidu      	"5E0F093C03C7"))
+		operations 	(list Operations
+		    (object Operation "shopAdd"
+			quid       	"5E0F08E50059"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "shopDelete"
+			quid       	"5E0F08EE003E"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "shopChange"
+			quid       	"5E0F08F800D3"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "buy"
+			quid       	"5E0F090102AF"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "recharge"
+			quid       	"5E0F090A0284"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllGoods"
+			quid       	"5E0F091500E3"
+			result     	"List<Goods>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getBuyingHistory"
+			quid       	"5E0F0922003C"
+			result     	"List<BuyingHistory>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getBuyer"
+			quid       	"5E0F093103DD"
+			result     	"Buyer"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11CE7400A3")))
+	    (object Class "ShopServerSrv"
+		quid       	"5E0F093C03C7"
+		operations 	(list Operations
+		    (object Operation "shopAdd"
+			quid       	"5E0F0988012A"
+			result     	"boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "shopDelete"
+			quid       	"5E0F099F0221"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "shopChange"
+			quid       	"5E0F09A90290"
+			result     	"boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "buy"
+			quid       	"5E0F09B400E0"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "recharge"
+			quid       	"5E0F09BD0087"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllGoods"
+			quid       	"5E0F09C70024"
+			result     	"List<Goods>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getBuyingHistory"
+			quid       	"5E0F09D2036D"
+			result     	"List<BuyingHistory>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getBuyer"
+			quid       	"5E0F09DE017F"
+			result     	"Buyer"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5E11CE7400A3"))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "mainSys"
+			quid       	"5E0F0956019E"
+			type       	"ServerSys")
+		    (object ClassAttribute "allGoods"
+			quid       	"5E0F096400FB"
+			type       	"ArrayList<Goods>")
+		    (object ClassAttribute "allBuyer"
+			quid       	"5E0F096D0311"
+			type       	"ArrayList<Buyer>")))
+	    (object Class "IStuInfServerSrv"
+		quid       	"5E0F09FF0107"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F0AB60149"
+			supplier   	"Logical View::StuInfServerSrv"
+			quidu      	"5E0F0A49027C"))
+		operations 	(list Operations
+		    (object Operation "managementSearch"
+			quid       	"5E0F0A0A0270"
+			result     	"Student"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5FDF047803C0")
+		    (object Operation "managementInput"
+			quid       	"5E0F0A160226"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "managementDelete"
+			quid       	"5E0F0A2200B1"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "managementChange"
+			quid       	"5E0F0A2B017C"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllStudents"
+			quid       	"5E0F0A35001E"
+			result     	"List<Student>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "StuInfServerSrv"
+		quid       	"5E0F0A49027C"
+		operations 	(list Operations
+		    (object Operation "managementSearch"
+			quid       	"5E0F0A7703C3"
+			result     	"Student"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5FDF047803C0")
+		    (object Operation "managementInput"
+			quid       	"5E0F0A86009F"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "managementDelete"
+			quid       	"5E0F0A900209"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "managementChange"
+			quid       	"5E0F0A9A0054"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAllStudents"
+			quid       	"5E0F0AA500DA"
+			result     	"List<Student>"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "mainSys"
+			quid       	"5E0F0A560370"
+			type       	"ServerSys")
+		    (object ClassAttribute "allStudents"
+			quid       	"5E0F0A5F0284"
+			type       	"ArrayList<Student>")))
+	    (object Class "IUserServerSrv"
+		quid       	"5E0F0AC80182"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F0BC10319"
+			supplier   	"Logical View::UserServerSrv"
+			quidu      	"5E0F0B1E021C"))
+		operations 	(list Operations
+		    (object Operation "login"
+			quid       	"5E0F0AD10323"
+			result     	"User"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5FDF047803AF")
+		    (object Operation "changePW"
+			quid       	"5E0F0ADC0127"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "forget"
+			quid       	"5E0F0AE6000D"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changePWProtect"
+			quid       	"5E0F0AF00086"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "UserServerSrv"
+		quid       	"5E0F0B1E021C"
+		operations 	(list Operations
+		    (object Operation "login"
+			quid       	"5E0F0B840257"
+			result     	"User"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0
+			quidu      	"5FDF047803AF")
+		    (object Operation "changePW"
+			quid       	"5E0F0B8F0018"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "forget"
+			quid       	"5E0F0B970391"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "changePWProtect"
+			quid       	"5E0F0BA10223"
+			result     	"Boolean"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "mainSys"
+			quid       	"5E0F0BB40003"
+			type       	"IServerSys")))
+	    (object Class "IServerSys"
+		quid       	"5E0F0BD901C8"
+		stereotype 	"Interface"
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"5E0F0BF601FA"
+			supplier   	"Logical View::ServerSys"
+			quidu      	"5E0F0BE50092")))
+	    (object Class "ServerSys"
+		quid       	"5E0F0BE50092")
 	    (object Association "$UNNAMED$74"
 		quid       	"5E0DE14601F7"
 		roles      	(list role_list
@@ -9990,7 +11071,12 @@
 		    (object Role "$UNNAMED$76"
 			quid       	"5E0DE147000C"
 			supplier   	"Logical View::BorrowRecordDao"
-			quidu      	"5E0DE0810061"))))
+			quidu      	"5E0DE0810061")))
+	    (object Class_Category "NewPackage"
+		quid       	"5E0F005902FD"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list)))
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Main"
 		quid       	"5FDEE9510164"
@@ -9998,8 +11084,8 @@
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
-		origin_x   	2526
-		origin_y   	0
+		origin_x   	7644
+		origin_y   	2344
 		items      	(list diagram_item_list
 		    (object ClassView "Class" "Logical View::User" @427
 			ShowCompartmentStereotypes 	TRUE
@@ -10619,7 +11705,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	4
-			    max_width  	381
+			    max_width  	400
 			    justify    	1)
 			width      	402
 			height     	286
@@ -10654,7 +11740,7 @@
 			quidu      	"5E0DDECE016D"
 			compartment 	(object Compartment
 			    Parent_View 	@440
-			    location   	(2200, 782)
+			    location   	(2191, 782)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -10712,7 +11798,7 @@
 			quidu      	"5E0DE3B60275"
 			compartment 	(object Compartment
 			    Parent_View 	@442
-			    location   	(2734, 778)
+			    location   	(2725, 778)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -10735,7 +11821,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(2882, 209)
+			location   	(2887, 262)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -10747,7 +11833,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@443
-			    location   	(2724, 28)
+			    location   	(2729, 81)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	316
@@ -10759,7 +11845,7 @@
 			quidu      	"5E0DE42803AD"
 			compartment 	(object Compartment
 			    Parent_View 	@443
-			    location   	(2724, 89)
+			    location   	(2729, 142)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -10773,7 +11859,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	6
-			    max_width  	313
+			    max_width  	331
 			    justify    	1)
 			width      	334
 			height     	386
@@ -10786,8 +11872,8 @@
 			client     	@442
 			supplier   	@443
 			vertices   	(list Points
-			    (2888, 600)
-			    (2886, 402))
+			    (2888, 601)
+			    (2890, 455))
 			line_style 	0)
 		    (object ClassView "Class" "Logical View::IBuyHistory" @445
 			ShowCompartmentStereotypes 	TRUE
@@ -10818,7 +11904,7 @@
 			quidu      	"5E0DE5700306"
 			compartment 	(object Compartment
 			    Parent_View 	@445
-			    location   	(2262, 1864)
+			    location   	(2253, 1864)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -10879,7 +11965,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	4
-			    max_width  	319
+			    max_width  	337
 			    justify    	1)
 			width      	340
 			height     	286
@@ -10894,6 +11980,1667 @@
 			vertices   	(list Points
 			    (2419, 1686)
 			    (2414, 1428))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IClientAccessDao" @448
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2891, 1742)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@448
+			    location   	(2890, 1850)
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	330
+			    justify    	0
+			    label      	"IClientAccessDao")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFC220104"
+			compartment 	(object Compartment
+			    Parent_View 	@448
+			    location   	(2704, 1891)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	2
+			    max_width  	369
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::ClientAccessDao" @449
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2899, 1265)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@449
+			    location   	(2713, 1184)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	372
+			    justify    	0
+			    label      	"ClientAccessDao")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFC3F0214"
+			compartment 	(object Compartment
+			    Parent_View 	@449
+			    location   	(2713, 1245)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	2
+			    max_width  	369
+			    justify    	1)
+			width      	390
+			height     	186
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @450
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0EFC6700D7"
+			client     	@448
+			supplier   	@449
+			vertices   	(list Points
+			    (2890, 1714)
+			    (2897, 1358))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::ICourseDao" @451
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2386, 2947)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@451
+			    location   	(2385, 3055)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	375
+			    justify    	0
+			    label      	"ICourseDao")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFC7300F3"
+			compartment 	(object Compartment
+			    Parent_View 	@451
+			    location   	(2212, 3096)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	6
+			    max_width  	344
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::CourseDao" @452
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2388, 2455)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@452
+			    location   	(2215, 2274)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	346
+			    justify    	0
+			    label      	"CourseDao")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFCDB01C9"
+			compartment 	(object Compartment
+			    Parent_View 	@452
+			    location   	(2215, 2335)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	6
+			    max_width  	344
+			    justify    	1)
+			width      	364
+			height     	386
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @453
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0EFD2B0274"
+			client     	@451
+			supplier   	@452
+			vertices   	(list Points
+			    (2385, 2919)
+			    (2387, 2648))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::ICurriculumDao" @454
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2935, 2993)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@454
+			    location   	(2934, 3101)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	378
+			    justify    	0
+			    label      	"ICurriculumDao")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFD3B0242"
+			compartment 	(object Compartment
+			    Parent_View 	@454
+			    location   	(2766, 3142)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	5
+			    max_width  	334
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::CurriculumDao" @455
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2929, 2445)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@455
+			    location   	(2761, 2289)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	336
+			    justify    	0
+			    label      	"CurriculumDao")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFD7C00E2"
+			compartment 	(object Compartment
+			    Parent_View 	@455
+			    location   	(2761, 2350)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	5
+			    max_width  	353
+			    justify    	1)
+			width      	354
+			height     	336
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @456
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0EFDD200DB"
+			client     	@454
+			supplier   	@455
+			vertices   	(list Points
+			    (2930, 2965)
+			    (2930, 2613))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IGoodsDao" @457
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2386, 4177)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@457
+			    location   	(2385, 4285)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	381
+			    justify    	0
+			    label      	"IGoodsDao")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFDE503A3"
+			compartment 	(object Compartment
+			    Parent_View 	@457
+			    location   	(2232, 4326)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	6
+			    max_width  	303
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::GoodsDao" @458
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2396, 3768)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@458
+			    location   	(2243, 3587)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	306
+			    justify    	0
+			    label      	"GoodsDao")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFE3100B5"
+			compartment 	(object Compartment
+			    Parent_View 	@458
+			    location   	(2243, 3648)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	6
+			    max_width  	303
+			    justify    	1)
+			width      	324
+			height     	386
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @459
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0EFE7D02A4"
+			client     	@457
+			supplier   	@458
+			vertices   	(list Points
+			    (2385, 4149)
+			    (2391, 3961))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::ILibraryDao" @460
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2964, 4201)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@460
+			    location   	(2963, 4309)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	385
+			    justify    	0
+			    label      	"ILibraryDao")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFEC90323"
+			compartment 	(object Compartment
+			    Parent_View 	@460
+			    location   	(2810, 4350)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	6
+			    max_width  	303
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::LibraryDao" @461
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2947, 3753)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@461
+			    location   	(2794, 3572)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	306
+			    justify    	0
+			    label      	"LibraryDao")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFF190110"
+			compartment 	(object Compartment
+			    Parent_View 	@461
+			    location   	(2794, 3633)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	6
+			    max_width  	318
+			    justify    	1)
+			width      	324
+			height     	386
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @462
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0EFF5A036A"
+			client     	@460
+			supplier   	@461
+			vertices   	(list Points
+			    (2959, 4172)
+			    (2953, 3946))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IStudentDao" @463
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(3358, 726)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@463
+			    location   	(3357, 834)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	388
+			    justify    	0
+			    label      	"IStudentDao")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFF6C03C2"
+			compartment 	(object Compartment
+			    Parent_View 	@463
+			    location   	(3171, 875)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	6
+			    max_width  	369
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::StudentDao" @464
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(3366, 290)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@464
+			    location   	(3180, 109)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	372
+			    justify    	0
+			    label      	"StudentDao")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0EFFBE0257"
+			compartment 	(object Compartment
+			    Parent_View 	@464
+			    location   	(3180, 170)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	6
+			    max_width  	369
+			    justify    	1)
+			width      	390
+			height     	386
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @465
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F000403A3"
+			client     	@463
+			supplier   	@464
+			vertices   	(list Points
+			    (3357, 697)
+			    (3362, 483))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IUserDao" @466
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(3386, 1864)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@466
+			    location   	(3385, 1972)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	391
+			    justify    	0
+			    label      	"IUserDao")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F000800AF"
+			compartment 	(object Compartment
+			    Parent_View 	@466
+			    location   	(3237, 2013)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	6
+			    max_width  	294
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::UserDao" @467
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(3397, 1472)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@467
+			    location   	(3249, 1291)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	296
+			    justify    	0
+			    label      	"UserDao")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F005F0390"
+			compartment 	(object Compartment
+			    Parent_View 	@467
+			    location   	(3249, 1352)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	6
+			    max_width  	294
+			    justify    	1)
+			width      	314
+			height     	386
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @468
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F00A00292"
+			client     	@466
+			supplier   	@467
+			vertices   	(list Points
+			    (3385, 1836)
+			    (3391, 1665))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IServerGUI" @469
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4109, 689)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@469
+			    location   	(4108, 797)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	395
+			    justify    	0
+			    label      	"IServerGUI")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F031A038A"
+			compartment 	(object Compartment
+			    Parent_View 	@469
+			    location   	(3963, 838)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	3
+			    max_width  	288
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::ServerGUI" @470
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4105, 263)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@470
+			    location   	(3887, 82)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	436
+			    justify    	0
+			    label      	"ServerGUI")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F034F01F3"
+			compartment 	(object Compartment
+			    Parent_View 	@470
+			    location   	(3887, 143)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	6
+			    max_width  	434
+			    justify    	1)
+			width      	454
+			height     	386
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @471
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F04310351"
+			client     	@469
+			supplier   	@470
+			vertices   	(list Points
+			    (4104, 660)
+			    (4106, 456))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IBookServerSrv" @472
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4062, 2118)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@472
+			    location   	(4061, 2226)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	398
+			    justify    	0
+			    label      	"IBookServerSrv")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F04EC0167"
+			compartment 	(object Compartment
+			    Parent_View 	@472
+			    location   	(3911, 2267)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	8
+			    max_width  	297
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::BookServerSrv" @473
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4058, 1435)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@473
+			    location   	(3847, 1179)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	422
+			    justify    	0
+			    label      	"BookServerSrv")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F056B0076"
+			compartment 	(object Compartment
+			    Parent_View 	@473
+			    location   	(3847, 1240)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	9
+			    max_width  	440
+			    justify    	1)
+			width      	440
+			height     	536
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @474
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F05E10077"
+			client     	@472
+			supplier   	@473
+			vertices   	(list Points
+			    (4057, 2090)
+			    (4059, 1703))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::ICourseServerSrv" @475
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4046, 3745)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@475
+			    location   	(4045, 3853)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	401
+			    justify    	0
+			    label      	"ICourseServerSrv")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F0627032C"
+			compartment 	(object Compartment
+			    Parent_View 	@475
+			    location   	(3881, 3894)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	8
+			    max_width  	325
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::CourseServerSrv" @476
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4055, 3218)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@476
+			    location   	(3844, 2962)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	422
+			    justify    	0
+			    label      	"CourseServerSrv")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F069500A9"
+			compartment 	(object Compartment
+			    Parent_View 	@476
+			    location   	(3844, 3023)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	9
+			    max_width  	419
+			    justify    	1)
+			width      	440
+			height     	536
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @477
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F07110257"
+			client     	@475
+			supplier   	@476
+			vertices   	(list Points
+			    (4045, 3717)
+			    (4049, 3486))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IMessageOperation" @478
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4746, 633)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@478
+			    location   	(4745, 741)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	405
+			    justify    	0
+			    label      	"IMessageOperation")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F0721012E"
+			compartment 	(object Compartment
+			    Parent_View 	@478
+			    location   	(4637, 782)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	2
+			    max_width  	213
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::MessageOperation" @479
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4747, 153)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@479
+			    location   	(4532, 47)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	430
+			    justify    	0
+			    label      	"MessageOperation")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F074700F9"
+			compartment 	(object Compartment
+			    Parent_View 	@479
+			    location   	(4532, 108)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	3
+			    max_width  	450
+			    justify    	1)
+			width      	448
+			height     	236
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @480
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F076F0079"
+			client     	@478
+			supplier   	@479
+			vertices   	(list Points
+			    (4745, 605)
+			    (4746, 271))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IServerSocketSrv" @481
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4755, 1899)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@481
+			    location   	(4754, 2007)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	409
+			    justify    	0
+			    label      	"IServerSocketSrv")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F077D0062"
+			compartment 	(object Compartment
+			    Parent_View 	@481
+			    location   	(4645, 2048)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	4
+			    max_width  	216
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::ServerSocketSrv" @482
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4769, 1328)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@482
+			    location   	(4411, 1022)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	716
+			    justify    	0
+			    label      	"ServerSocketSrv")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F07A90101"
+			compartment 	(object Compartment
+			    Parent_View 	@482
+			    location   	(4411, 1083)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	11
+			    max_width  	716
+			    justify    	1)
+			width      	734
+			height     	636
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @483
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F089201C2"
+			client     	@481
+			supplier   	@482
+			vertices   	(list Points
+			    (4754, 1870)
+			    (4761, 1646))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IShopServerSrv" @484
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4714, 3523)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@484
+			    location   	(4713, 3631)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	412
+			    justify    	0
+			    label      	"IShopServerSrv")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F08D8018B"
+			compartment 	(object Compartment
+			    Parent_View 	@484
+			    location   	(4526, 3672)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	9
+			    max_width  	372
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::ShopServerSrv" @485
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4693, 2793)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@485
+			    location   	(4412, 2462)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	562
+			    justify    	0
+			    label      	"ShopServerSrv")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F093C03C7"
+			compartment 	(object Compartment
+			    Parent_View 	@485
+			    location   	(4412, 2523)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	12
+			    max_width  	559
+			    justify    	1)
+			width      	580
+			height     	686
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @486
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F09EF00DD"
+			client     	@484
+			supplier   	@485
+			vertices   	(list Points
+			    (4709, 3495)
+			    (4702, 3136))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IStuInfServerSrv" @487
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(5520, 805)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@487
+			    location   	(5519, 913)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	415
+			    justify    	0
+			    label      	"IStuInfServerSrv")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F09FF0107"
+			compartment 	(object Compartment
+			    Parent_View 	@487
+			    location   	(5301, 954)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	6
+			    max_width  	434
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::StuInfServerSrv" @488
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(5512, 297)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@488
+			    location   	(5200, 66)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	624
+			    justify    	0
+			    label      	"StuInfServerSrv")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F0A49027C"
+			compartment 	(object Compartment
+			    Parent_View 	@488
+			    location   	(5200, 127)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	8
+			    max_width  	622
+			    justify    	1)
+			width      	642
+			height     	486
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @489
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F0AB60149"
+			client     	@487
+			supplier   	@488
+			vertices   	(list Points
+			    (5515, 777)
+			    (5515, 540))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IUserServerSrv" @490
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(5542, 2382)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@490
+			    location   	(5541, 2490)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	441
+			    justify    	0
+			    label      	"IUserServerSrv")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F0AC80182"
+			compartment 	(object Compartment
+			    Parent_View 	@490
+			    location   	(5343, 2531)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	5
+			    max_width  	394
+			    justify    	0)
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::UserServerSrv" @491
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(5537, 1902)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@491
+			    location   	(5322, 1721)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	430
+			    justify    	0
+			    label      	"UserServerSrv")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F0B1E021C"
+			compartment 	(object Compartment
+			    Parent_View 	@491
+			    location   	(5322, 1782)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	6
+			    max_width  	428
+			    justify    	1)
+			width      	448
+			height     	386
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @492
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F0BC10319"
+			client     	@490
+			supplier   	@491
+			vertices   	(list Points
+			    (5537, 2354)
+			    (5538, 2095))
+			line_style 	0)
+		    (object ClassView "Class" "Logical View::IServerSys" @493
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(5433, 3439)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@493
+			    location   	(5432, 3547)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	445
+			    justify    	0
+			    label      	"IServerSys")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F0BD901C8"
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::ServerSys" @494
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(5419, 3056)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@494
+			    location   	(5305, 3005)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	228
+			    justify    	0
+			    label      	"ServerSys")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5E0F0BE50092"
+			width      	246
+			height     	126
+			annotation 	8
+			autoResize 	TRUE)
+		    (object RealizeView "" @495
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E0F0BF601FA"
+			client     	@493
+			supplier   	@494
+			vertices   	(list Points
+			    (5428, 3411)
+			    (5420, 3119))
 			line_style 	0)))))
     root_subsystem 	(object SubSystem "Component View"
 	quid       	"5FDEE95002E1"
